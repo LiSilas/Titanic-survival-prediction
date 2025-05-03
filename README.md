@@ -5,9 +5,6 @@
 
 项目结构为：
 Titanic_survival_prediction/
-├── data/
-│   ├── train.csv
-│   ├── test.csv
 ├── output/
 │   ├── titanic_lr_submission.csv
 │   ├── titanic_rf_submission.csv
@@ -15,6 +12,7 @@ Titanic_survival_prediction/
 ├── Titanic_survival_prediction.ipynb
 
 注意：由于kaggle中的文件路径与本地不同，如果想在本地运行该项目，请将Titanic_survival_prediction.ipynb中的数据读取路径改为“data/train.csv”与“data/test.csv”。
+注意2：数据集我已删除，如若需要，请自行前往Kaggle下载数据集并解压在相应的位置。
 
 项目说明：
 该项目主要用于kaggle入门比赛及数据处理流程演示。其步骤如下：
